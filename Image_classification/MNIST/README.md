@@ -21,13 +21,13 @@ A residual network model with a total of 134,472 parameters (133,668 trainable a
 The train vs validation accuracies of each of the methods described above after the 1st stage of training can be seen below in figures 1-3.
 
 ##### Figure 1. Method 1
-![method1](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method1.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method1.png)
 
 ##### Figure 2. Method 2
-![method2](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method2.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method2.png)
 
 ##### Figure 3. Method 3
-![method3](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method3.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method3.png)
 
 ##### Table 1. Evaluation accuracy and loss of each method.
 
@@ -43,9 +43,9 @@ As seen in Table 1, method 3  performed reasonably well with an evaluation accur
 
 Some results predicted by the models can be seen below.
 
-![img1](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/1.png)
-![img2](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/2.png)
-![img3](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/3.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/1.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/2.png)
+![](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/3.png)
 
 
 # Conclusion
