@@ -22,13 +22,13 @@ The train vs validation accuracies of each of the methods described above after 
 
 ##### Figure 1. Method 1
 
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method1.png)
+![method1](https://user-images.githubusercontent.com/43802985/95289864-7b78fb00-0889-11eb-8b56-58c43fa72552.png)
 
 ##### Figure 2. Method 2
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method2.png)
+![method2](https://user-images.githubusercontent.com/43802985/95289880-86cc2680-0889-11eb-89a9-a0b0726da64c.png)
 
 ##### Figure 3. Method 3
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method3.png)
+![method3](https://user-images.githubusercontent.com/43802985/95289911-9481ac00-0889-11eb-90bc-68964651e055.png)
 
 ##### Table 1. Evaluation accuracy and loss of each method.
 
@@ -44,9 +44,9 @@ As seen in Table 1, method 3  performed reasonably well with an evaluation accur
 
 Some results predicted by the models can be seen below.
 
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/1.png)
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/2.png)
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/3.png)
+![1](https://user-images.githubusercontent.com/43802985/95289742-22a96280-0889-11eb-8402-a9d5e30679c0.png)
+![2](https://user-images.githubusercontent.com/43802985/95289829-60a68680-0889-11eb-9593-38ba2db25a06.png)
+![3](https://user-images.githubusercontent.com/43802985/95289853-7025cf80-0889-11eb-8783-82e87f7d6f63.png)
 
 
 # Conclusion
