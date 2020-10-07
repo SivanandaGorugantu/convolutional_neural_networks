@@ -22,13 +22,13 @@ The train vs validation accuracies of each of the methods described above after 
 
 ##### Figure 1. Method 1
 
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/method1.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method1.png)
 
 ##### Figure 2. Method 2
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/method2.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method2.png)
 
 ##### Figure 3. Method 3
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/method3.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/method3.png)
 
 ##### Table 1. Evaluation accuracy and loss of each method.
 
@@ -44,9 +44,9 @@ As seen in Table 1, method 3  performed reasonably well with an evaluation accur
 
 Some results predicted by the models can be seen below.
 
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/1.png)
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/2.png)
-![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/assets/3.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/1.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/2.png)
+![](https://raw.githubusercontent.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/.github/images/3.png)
 
 
 # Conclusion
