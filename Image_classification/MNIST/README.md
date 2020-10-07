@@ -16,9 +16,26 @@ A custom architecture with a total of 270,482 parameters (269,792 trainable and 
 
 A residual network model with a total of 134,472 parameters (133,668 trainable and 804 non-trainable). This model has 2 residual blocks and no fully connected layers. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist_Res.png).
 
-# Comparison
+# Methodology
 
-The train vs validation accuracies of each of the methods described above after the 1st stage of training can be seen below in figures 1-3.
+The data is loaded from Keras datasets. The loaded data is then divided into 3 parts, namely, "train", "validation" and "test" (or evaluation data). Train and validation datasets are used to train the model. Keras ImageDataGenerator is used to add augmentation to the train and validation images. The augmentation process includes features such as width shift, height shift, rotation, shear and zoom. All the images are rescaled to [0-1] i.e. (divided by 255.) to normalise the input data. 
+
+The model is trained for 4 stages with incremental batch size. Batch sizes per stage can be seen in Table 1. 
+
+##### Table 1. Train and validation batch sizes per stage.
+
+| Stage | Train batch size | Validation batch size |
+| ----- | --------- | --------- |
+| stage1 | 64 | 64 |
+| stage2 | 256 | 256 |
+| stage3 | 512 | 512 |
+| stage4 | 1024 | 512 |
+
+After the model is trained for 4 stages, the best weights are loaded and the model is evaluated on the test set (or the evaluation set). 
+
+Each of the three methods described above follows the same strategy.
+
+The train vs validation accuracies of each of the methods described above after the 1st stage of training can be seen below in figures 1-3. X-axis represents epoch number and Y-axis represents accuracy.
 
 ##### Figure 1. Method 1
 
@@ -30,7 +47,11 @@ The train vs validation accuracies of each of the methods described above after 
 ##### Figure 3. Method 3
 ![method3](https://user-images.githubusercontent.com/43802985/95289911-9481ac00-0889-11eb-90bc-68964651e055.png)
 
-##### Table 1. Evaluation accuracy and loss of each method.
+
+
+# Results
+
+##### Table 2. Evaluation accuracy and loss of each method.
 
 | Method | Accuracy | Loss |
 | ------ | -------- | ---- |
@@ -38,9 +59,7 @@ The train vs validation accuracies of each of the methods described above after 
 | method2| 99.2% | 0.03197 |
 | method3| 99.51% | 0.01494 |
 
-As seen in Table 1, method 3  performed reasonably well with an evaluation accuracy of 99.51%. We can also observe that with approximately 38,000 more parameters, method 3 achieved significant improvement over method 1. Also, method 3 has half the number of parameters as compared to method 2.
-
-# Results
+As seen in Table 2, method 3  performed reasonably well with an evaluation accuracy of 99.51%. We can also observe that with approximately 38,000 more parameters, method 3 achieved significant improvement over method 1. Also, method 3 has half the number of parameters as compared to method 2.
 
 Some results predicted by the models can be seen below.
 
