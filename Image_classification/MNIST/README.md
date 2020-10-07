@@ -20,7 +20,7 @@ A residual network model with a total of 134,472 parameters (133,668 trainable a
 
 The data is loaded from Keras datasets. The loaded data is then divided into 3 parts, namely, "train", "validation" and "test" (or evaluation data). Train and validation datasets are used to train the model. Keras ImageDataGenerator is used to add augmentation to the train and validation images. The augmentation process includes features such as width shift, height shift, rotation, shear and zoom. All the images are rescaled to [0-1] i.e. (divided by 255.) to normalise the input data. 
 
-The model is trained for 4 stages with incremental batch size. Batch sizes per stage can be seen in Table 1. 
+The model is trained for 4 stages with incremental batch size. Batch sizes per stage can be seen in Table 1. The final 2 stages (that is stage 3 and stage 4) are to finetune the model with learning rate 1e-4 and 1e-5 respectively. 
 
 ##### Table 1. Train and validation batch sizes per stage.
 
