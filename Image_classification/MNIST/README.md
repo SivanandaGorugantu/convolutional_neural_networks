@@ -6,28 +6,28 @@ MNIST dataset[1] available in Keras consists of 60,000 training grayscale images
 
 ### Method 1 - Plain CNN
 
-This is a custom plain CNN with a total of 96,774 parameters (96,292 trainable and 482 non-trainable). The model architecture as seen [here](/Model_Architecture/mnist2FC.png), has 4 blocks of sequential convolutional layers and 2 fully connected layers. The implementation of this architecture is [here](/notebooks/MNIST_2FC.ipynb). The output of each layer is also visualised in this notebook for better understanding of the model performance.
+This is a custom plain CNN with a total of 96,774 parameters (96,292 trainable and 482 non-trainable). The model architecture as seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist2FC.png), has 4 blocks of sequential convolutional layers and 2 fully connected layers. The implementation of this architecture is [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/notebooks/MNIST_2FC.ipynb). The output of each layer is also visualised in this notebook for better understanding of the model performance.
 
 ### Method 2 - CNN with Concat layers
 
-A custom architecture with a total of 270,482 parameters (269,792 trainable and 690 non-trainable). It has 4 blocks of convolutional layers with each block's output concatenated with its input and fed as input to its subsequent conv2d layer. This architecture also has 2 fully connected layers. The architecture is visualized [here](/Model_Architecture/mnist2FC_concat.png).
+A custom architecture with a total of 270,482 parameters (269,792 trainable and 690 non-trainable). It has 4 blocks of convolutional layers with each block's output concatenated with its input and fed as input to its subsequent conv2d layer. This architecture also has 2 fully connected layers. The architecture is visualized [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist2FC_concat.png).
 
 ### Method 3 - Residual Network
 
-A residual network model with a total of 134,472 parameters (133,668 trainable and 804 non-trainable). This model has 2 residual blocks and no fully connected layers. The model architecture can be seen [here](/Model_Architecture/mnist_Res.png).
+A residual network model with a total of 134,472 parameters (133,668 trainable and 804 non-trainable). This model has 2 residual blocks and no fully connected layers. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist_Res.png).
 
 # Comparison
 
 The train vs validation accuracies of each of the methods described above after the 1st stage of training can be seen below in figures 1-3.
 
 ##### Figure 1. Method 1
-![method1](/assets/method1.png)
+![method1](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method1.png)
 
 ##### Figure 2. Method 2
-![method2](/assets/method2.png)
+![method2](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method2.png)
 
 ##### Figure 3. Method 3
-![method3](/assets/method3.png)
+![method3](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/method3.png)
 
 ##### Table 1. Evaluation accuracy and loss of each method.
 
@@ -43,9 +43,9 @@ As seen in Table 1, method 3  performed reasonably well with an evaluation accur
 
 Some results predicted by the models can be seen below.
 
-![img1](/assets/results/1.png)
-![img2](/assets/results/2.png)
-![img3](/assets/results/3.png)
+![img1](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/1.png)
+![img2](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/2.png)
+![img3](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/assets/results/3.png)
 
 
 # Conclusion
@@ -55,3 +55,6 @@ The experiment was to understand which method performs best based on factors suc
 2. adding more image augmentation parameters during the model training phase.
 3. Finetuning the model hyperparameters.
 
+# References
+
+[1] http://yann.lecun.com/exdb/mnist/
