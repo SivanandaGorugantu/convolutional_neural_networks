@@ -4,11 +4,11 @@ Dataset used: CARLA dataset for semantic segmentation [1]
 
 ### Model 1
 
-A simple U-Net with residual convolution blocks in both the encoding and decoding stages. This network lacks concatenation layers between the respective blocks of the encode and decode stages. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist2FC.png). The implementation of this architecture is [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/notebooks/MNIST_2FC.ipynb). 
+A simple U-Net with residual convolution blocks in both the encoding and decoding stages. This network lacks concatenation layers between the respective blocks of the encode and decode stages. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/blob/main/Semantic_segmentation/Model_Architectures/simple_RES_Unet_260820.png). The implementation of this architecture is [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/blob/main/Semantic_segmentation/notebooks/Seg_simple.ipynb). 
 
 ### Model 2 
 
-A simple U-Net with residual convolution blocks in both the encoding and decoding stages. This network has concatenation layers between the respective blocks of the encode and decode stages. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/Model_Architecture/mnist2FC.png). The implementation of this architecture is [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/tree/main/Image_classification/MNIST/notebooks/MNIST_2FC.ipynb). 
+A U-Net with residual convolution blocks in both the encoding and decoding stages. This network has concatenation layers between the respective blocks of the encode and decode stages. The model architecture can be seen [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/blob/main/Semantic_segmentation/Model_Architectures/conc_RES_Unet_310820.png). The implementation of this architecture is [here](https://github.com/SivanandaGorugantu/convolutional_neural_networks/blob/main/Semantic_segmentation/notebooks/Seg_concat.ipynb). 
 
 
 # Methodology
@@ -43,12 +43,12 @@ Both methods described above follows the same strategy.
 Results predicted by the model 1.
 | Input image | Image mask | Predicted mask |
 | ----------- | ---------- | -------------- |
-|![1](https://user-images.githubusercontent.com/43802985/95289742-22a96280-0889-11eb-8402-a9d5e30679c0.png)|![2](https://user-images.githubusercontent.com/43802985/95289829-60a68680-0889-11eb-9593-38ba2db25a06.png)|![3](https://user-images.githubusercontent.com/43802985/95289853-7025cf80-0889-11eb-8783-82e87f7d6f63.png)|
+|![molde1_input](https://user-images.githubusercontent.com/43802985/95327073-2658db80-08c1-11eb-88db-da65ac4b6519.png)|![model1_mask](https://user-images.githubusercontent.com/43802985/95327060-22c55480-08c1-11eb-8d0b-55fadc5ec588.png)|![model1_pred](https://user-images.githubusercontent.com/43802985/95327063-23f68180-08c1-11eb-8b0b-39b63a5b608a.png)|
 
 Results predicted by the model 2.
 | Input image | Image mask | Predicted mask |
 | ----------- | ---------- | -------------- |
-|![1](https://user-images.githubusercontent.com/43802985/95289742-22a96280-0889-11eb-8402-a9d5e30679c0.png)|![2](https://user-images.githubusercontent.com/43802985/95289829-60a68680-0889-11eb-9593-38ba2db25a06.png)|![3](https://user-images.githubusercontent.com/43802985/95289853-7025cf80-0889-11eb-8783-82e87f7d6f63.png)|
+|![model2_input](https://user-images.githubusercontent.com/43802985/95327064-248f1800-08c1-11eb-97c6-d0b3ea601db5.png)|![model2_mask](https://user-images.githubusercontent.com/43802985/95327068-2527ae80-08c1-11eb-994b-47670c47fd06.png)|![model2_pred](https://user-images.githubusercontent.com/43802985/95327072-25c04500-08c1-11eb-92db-de4ffe940faf.png)|
 
 The predicted mask is based on the colour map provided in [1].
 
